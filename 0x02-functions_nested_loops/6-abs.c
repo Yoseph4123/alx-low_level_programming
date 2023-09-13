@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-  *abs - absolute value of an integer
+  *_abs - absolute value of an integer
   *
   *@j: is an integer
   *
