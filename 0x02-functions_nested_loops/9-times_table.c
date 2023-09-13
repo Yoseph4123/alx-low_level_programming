@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-  *9-times_table - times table
+  *times_table - times table 9x9
   *
   *Return: absolute number
   */
