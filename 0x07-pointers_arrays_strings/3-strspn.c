@@ -2,15 +2,15 @@
 #include "main.h"
 #include <stdio.h>
 /**
-  *_strstr -  gets the length of a prefix substring
+  *_strspn -  gets the length of a prefix substring
   *@s: is a pointer
   *@accept: is a pointer
-  *Retunr: i
+  *Return: i
   */
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int i;
 
-	i = strspn (s, accept);
+	i = strspn(s, accept);
 	return (i);
 }
