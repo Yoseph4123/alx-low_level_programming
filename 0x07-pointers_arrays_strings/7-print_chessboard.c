@@ -3,7 +3,7 @@
 #include "main.h"
 /**
   *print_chessboard - prints a chessboard
-  *@i,j: are  integers
+  *@a: is apointer
   */
 void print_chessboard(char (*a)[8])
 {
