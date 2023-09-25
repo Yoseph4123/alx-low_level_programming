@@ -1,17 +1,16 @@
-#include <stdio.h>
-#include "main.h"
 #include <string.h>
+#include "main.h"
+#include <stdio.h>
 /**
-  *_strspn - gets the length of a prefix substring
-  *@i: is unsugned integer
+  *_strstr -  gets the length of a prefix substring
   *@s: is a pointer
   *@accept: is a pointer
-  *Return: s
+  *Retunr: i
   */
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int i;
 
-	i = strspn(s  accept);
+	i = strspn (s, accept);
 	return (i);
 }
