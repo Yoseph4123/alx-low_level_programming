@@ -3,7 +3,8 @@
 #include <string.h>
 /**
   *_strstr - locates a substring
-  *@i,haystack,needle: is a pointer
+  *@haystack:is a pointer
+  *@needle: is a pointer
   *Return: i
   */
 char *_strstr(char *haystack, char *needle)

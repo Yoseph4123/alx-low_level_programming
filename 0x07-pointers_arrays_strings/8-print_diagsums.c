@@ -3,7 +3,8 @@
 #include "main.h"
 /**
   *print_diagsums - prints the sum of diagonals
-  *@i,sum1,sum2: are integers
+  *@a: is a pointer
+  *@size: is a integer
   *Reutnr: void
   */
 void print_diagsums(int *a, int size)

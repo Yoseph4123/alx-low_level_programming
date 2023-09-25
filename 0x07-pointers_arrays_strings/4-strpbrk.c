@@ -3,7 +3,6 @@
 #include <string.h>
 /**
   *_strpbrk - searches a string for any of a set of bytes
-  *@i: is a character
   *@s: is a pointer
   *@accept: is a pointer
   *Return: i
