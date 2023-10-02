@@ -10,6 +10,11 @@ int main(int avgc, char *avgv[])
 {
 	int i, sum = 1;
 
+	if (avgc < 3)
+	{
+		printf("Error\n");
+		return (1);
+	}
 	for (i = 1; i < avgc; i++)
 	{
 		sum = sum * atoi(avgv[i]);
